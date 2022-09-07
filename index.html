@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header><h1 id="heading">Todo App</h1></header>
+
+    <main>
+      <center>
+        <section class="add-inputs">
+          <input id="AddInput" type="text" placeholder="Get sh*t done!" />
+          <button id="AddButton">Add</button>
+        </section>
+        <section class="filter-options">
+          <h2>Filter & Options</h2>
+          <div id="radio-list">
+            <input type="radio" id="radio-all" value="all" checked />
+            <label for="radio-all">All</label>
+            <input type="radio" id="radio-open" value="open" />
+            <label for="radio-open">Open</label>
+            <input type="radio" id="radio-done" value="done" />
+            <label for="radio-done">Done</label>
+          </div>
+          <button id="remove-button" >Remove Done Todos</button>
+        </section>
+        <section class="your-todos">
+          <h2>Your Todos</h2>
+          <ul id="ul-list">
+            <li class="li-list">Learn HTML</li>
+            <li class="li-list">Learn CSS</li>
+            <li class="li-list">Learn JavaScript</li>
+          </ul>
+        </section>
+      </center>
+    </main>
+
+    <script src="java.js"></script>
+  </body>
+</html>

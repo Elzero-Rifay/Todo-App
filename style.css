@@ -1,0 +1,104 @@
+header {
+  background-color: #ef476f;
+  margin-top: -20px;
+  height: 166px;
+  width: 100%;
+}
+
+main {
+  background-color: #8080801c;
+  height: 670px;
+  width: 100%;
+}
+
+#heading {
+  color: white;
+  padding: 61px 533px;
+
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-shadow: 2px 2px #118ab2, 4px 4px #f5ab00;
+}
+
+#AddInput {
+  margin-left: -12px;
+  margin-top: 37px;
+  border: none;
+  padding: 10px 32px 8px 9px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#AddButton {
+  padding-top: 3px;
+  margin-top: 40px;
+  margin-left: 13px;
+  box-shadow: 3px 3px #ef476f;
+  background-color: #118ab2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  height: 48px;
+  width: 56px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.filter-options h2 {
+  padding-right: 153px;
+  margin-top: 53px;
+  font-weight: bolder;
+  font-size: 30px;
+  color: black;
+}
+
+#radio-all,
+#radio-done,
+#radio-open {
+  display: block;
+  margin-right: 368px;
+  margin-top: 19px;
+}
+
+label {
+  position: relative;
+  top: -20px;
+  right: 140px;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+#remove-button {
+  padding: 6px 9px;
+  position: relative;
+  top: -3px;
+  right: 89px;
+  font-size: 20px;
+  background-color: #118ab2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 3px 3px #ef476f;
+}
+
+.your-todos h2 {
+  padding-right: 220px;
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 30px;
+  color: black;
+}
+
+#ul-list {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.li-list {
+    display: flex;
+    padding: 15px 492px;
+    font-size: 20px;
+    color: black;
+  }
