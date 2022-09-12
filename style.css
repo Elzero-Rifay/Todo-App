@@ -30,7 +30,7 @@ main {
   border-radius: 5px;
 }
 
-#AddButton {
+#Add {
   padding-top: 3px;
   margin-top: 40px;
   margin-left: 13px;
@@ -69,7 +69,7 @@ label {
   font-family: monospace;
 }
 
-#remove-button {
+#deleted {
   padding: 6px 9px;
   position: relative;
   top: -3px;
@@ -90,15 +90,10 @@ label {
   color: black;
 }
 
-#ul-list {
-  list-style-type: none;
-  padding: 0;
-
-}
-
-.li-list {
+.checkbox {
     display: flex;
     padding: 15px 492px;
     font-size: 20px;
     color: black;
   }
+
