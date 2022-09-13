@@ -30,6 +30,12 @@ main {
   border-radius: 5px;
 }
 
+#AddInput:focus {
+  border: 2px solid #f5ab00 ;
+  border-radius: 8px;
+  outline: none;
+}
+
 #Add {
   padding-top: 3px;
   margin-top: 40px;
